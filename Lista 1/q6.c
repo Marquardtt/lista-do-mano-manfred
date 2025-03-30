@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float lado;
 	printf("Digite o tamanho de um dos lados do quadrado: ");

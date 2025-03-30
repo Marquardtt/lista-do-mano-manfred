@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main()
+void main()
 {
 	int metros, cm;
 	printf("Digite o valor em metros: ");

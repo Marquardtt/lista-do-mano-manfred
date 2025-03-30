@@ -8,7 +8,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	int quantidade_maquinas, motor_20cv = 1, motor_1cv = 2, motor_5cv = 3;
 	float valor_motor_20cv = 1500, valor_motor_1cv = 300, valor_motor_5cv = 600, preco_maquina, preco_total, preco_total_motor20cv, preco_total_motor5cv, preco_total_motor1cv;
@@ -43,5 +43,5 @@ int main()
 	printf("\n1CV: %.2f: ", preco_total_motor1cv);
 	printf("\n======================================\n\n\n");
 
-	return 0;
+	return;
 }

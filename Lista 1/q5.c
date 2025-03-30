@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	char num[15];
 	int casas = 0;
@@ -16,5 +16,5 @@ int main()
 		casas = (p != NULL) ? (int)strlen(p + 1) : 0;
 	} while (casas != 5);
 	printf("Número arredondado %.2f",(atof(num) * 100) / 100);
-	return 0;
+	return;
 }

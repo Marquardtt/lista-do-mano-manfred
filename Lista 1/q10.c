@@ -5,7 +5,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float valor_dia = 25.00, salario_bruto;
 	int dias_trabalhados;
@@ -13,5 +13,5 @@ int main()
 	scanf("%d", &dias_trabalhados);
 	salario_bruto = dias_trabalhados * valor_dia;
 	printf("Quantia liquida a ser paga: %.2f", salario_bruto - (salario_bruto) * 8.0 / 100);
-	return 0;
+	return;
 }

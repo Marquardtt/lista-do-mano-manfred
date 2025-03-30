@@ -13,7 +13,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	int quantidade_parafuso, quantidade_rosca, quantidade_porca, quantidade_total;
 	float preco_total, preco_total_parafuso, preco_total_porca, preco_total_rosca;
@@ -49,5 +49,5 @@ int main()
 	printf("| Porca");
 	printf("| %f   ", preco_porca);
 	printf("| %.2f    |", preco_total_porca);
-	return 0;
+	return;
 }

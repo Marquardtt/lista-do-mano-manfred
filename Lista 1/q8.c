@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float nota, soma = 0;
 	for (int i = 1; i <= 4; i++) {
@@ -13,5 +13,5 @@ int main()
 		soma += nota;
 	}
 	printf("A média é %.1f", soma / 4);
-	return 0;
+	return;
 }

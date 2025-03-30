@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float num_1, num_2;
 	printf("Digite um número");
@@ -18,5 +18,4 @@ int main()
 	} else{
 		printf("Número 2 é maior -> %f", num_2);
 	}
-	return 0;
 }

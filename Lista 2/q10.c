@@ -9,7 +9,7 @@
 #include <math.h>
 #include <ctype.h>
 
-int main() {
+void main() {
 	float idade, soma = 0, media;
 	for (int i = 1; i <= 4; i++) {
 		printf("Digite a idade do %dº aluno: ", i);
@@ -28,5 +28,5 @@ int main() {
 	else {
 		printf("Turma Idosa");
 	}
-	return 0;
+	return;
 }

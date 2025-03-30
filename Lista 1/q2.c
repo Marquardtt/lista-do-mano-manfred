@@ -2,11 +2,11 @@
 
 #include <stdio.h>
 
-int main() 
+void main() 
 {
 	int num;
 	printf("Digite um número: ");
 	scanf("%d", &num);
 	printf("O número digitado foi %d", num);
-	return 0;
+	return;
 }

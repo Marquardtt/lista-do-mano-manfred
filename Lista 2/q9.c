@@ -9,7 +9,7 @@
 #include <math.h>
 #include <ctype.h>
 
-int main() {
+void main() {
 	float nota, soma = 0, media;
 	for (int i = 1; i <= 3; i++) {
 		printf("Digite a nota número %d", i);
@@ -28,5 +28,5 @@ int main() {
 	else {
 		printf("Aprovado com Distinção");
 	}
-	return 0;
+	return;
 }

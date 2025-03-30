@@ -2,8 +2,8 @@
 
 #include <stdio.h>
 
-int main() 
+void main() 
 {
     printf("Alo mundo\n");
-    return 0;
+    return;
 }

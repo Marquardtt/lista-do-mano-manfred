@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float temperatura;
 	printf("Digite a temperatura em °F: ");

@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float num1, num2;
 	printf("Digite um numero: ");

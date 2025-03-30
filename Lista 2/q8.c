@@ -6,7 +6,7 @@
 #include <math.h>
 #include <ctype.h>
 
-int main() {
+void main() {
 	int num_1, num_2, num_3;
 	printf("Digite 3 valores inteiros: ");
 	scanf("%d %d %d", &num_1, &num_2, &num_3);
@@ -34,5 +34,5 @@ int main() {
 			printf("%d %d %d\n", num_3, num_2, num_1);
 		}
 	}
-	return 0;
+	return;
 }

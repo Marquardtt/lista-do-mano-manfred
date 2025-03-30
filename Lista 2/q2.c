@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float num;
 	printf("Digite um número");
@@ -16,5 +16,5 @@ int main()
 	}else {
 		printf("O número é positivo");
 	}
-	return 0;
+	return;
 }

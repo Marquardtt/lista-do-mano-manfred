@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main() {
+void main() {
 	int num;
 	printf("Digite um número");
 	scanf("%d", &num);
@@ -16,5 +16,5 @@ int main() {
 	else {
 		printf("O número é impar");
 	}
-	return 0;
+	return;
 }

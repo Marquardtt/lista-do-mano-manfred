@@ -7,7 +7,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	int num_1, num_2;
 	float num_3;

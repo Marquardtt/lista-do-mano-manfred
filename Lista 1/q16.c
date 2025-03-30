@@ -12,7 +12,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float salario_bruto, desconto_ir, desconto_inss, desconto_sindicato, total_descontos, salario_liquido;
 	printf("Digite seu salário bruto mensal: ");
@@ -29,5 +29,5 @@ int main()
 	printf("\n(-) INSS(11 %): R$%.2f", desconto_inss);
 	printf("\n(-) Sindicato(3 %): R$%.2f", desconto_sindicato);
 	printf("\nSalário liquído: R$%.2f", salario_liquido);
-	return 0;
+	return;
 }

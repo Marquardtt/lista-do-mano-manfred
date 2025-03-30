@@ -4,7 +4,7 @@
 #include <string.h>
 #include <math.h>
 
-int main() {
+void main() {
 	char sexo;
 	printf("Digite M para maiusculo e F para feminino: ");
 	scanf("%s", &sexo);

@@ -5,7 +5,7 @@
 #include <math.h>
 #include <ctype.h>
 
-int main() {
+void main() {
 	char vogais[5] = {'A', 'E', 'I', 'O', 'U'};
 	char letra;
 
@@ -15,12 +15,12 @@ int main() {
 	for (int i = 0; i < 5; i++) {
 		if (toupper(letra) == vogais[i]) {
 			printf("Vogal\n");
-			return 0;
+			return;
 		}
 		else
 		{
 			printf("Consoante");
-			return 0;
+			return;
 		}
 	}
 }

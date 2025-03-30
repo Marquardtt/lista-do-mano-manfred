@@ -5,7 +5,7 @@
 #include <string.h>
 #include <math.h>
 
-int main()
+void main()
 {
 	float largura, altura, area_total, total_latas, total_litros, quantidade_tinta = 3.6;
 
@@ -19,5 +19,5 @@ int main()
 	total_latas = ceil(total_litros / quantidade_tinta);
 
 	printf("São necessárias %.0f latas de tinta para realizar a pintura da parede.", total_latas);
-	return 0;
+	return;
 }
