@@ -6,13 +6,13 @@
 void main() {  
 	int vet[4];
 
-	for (int i = 0; i <= sizeof(vet); i++)
+	for (int i = 0; i <= 4; i++)
 	{
 		printf("Digite o %dº numero: ");
-		scanf_s("%d", &vet[i]);
+		scanf("%d", &vet[i]);
 	}
 
-	for (int i = 0; i < sizeof(vet); i++)
+	for (int i = 0; i < 4;i++)
 	{
 		printf("Numero %d = %d", i, vet[i]);
 	}
